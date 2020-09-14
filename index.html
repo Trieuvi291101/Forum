@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Du Lịch Vũng Tàu</title>
+        <meta charset="UTF-8"/>
+        <link href="css/demo.css" rel="stylesheet"/>
+        <link href="images/logo.png" rel="shortcut icon"/>
+        <link href="https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css" rel="stylesheet" />
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body style="background-image: url(images/a.jpg);">
+        <header id="header-body">
+                <section class="abcd">
+                    <ul class="ab">
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="homestay_hotel.html">Hotel-Homestay</a>
+                        </li>
+                        <li>
+                            <a href="camnang.html">Cẩm nang</a>
+                        </li>
+                        <li>
+                            <a href="con1.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="con2.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </section>
+        </header>     
+        <div class="bg-body">
+            <div class="gototop">
+                <input id="btngototop" onclick="gototop()" type="button" value="VỀ ĐẦU TRANG"/>
+            </div>
+            
+            <section class="one">
+                <h1>Let's go and experience!</h1>
+                <h3>Traveling – it leaves you speechless, then turns you into a storyteller</h3>
+            </section>
+            <section class="tow" >
+                <div class="content">
+                    <section class="tow_1">
+                        <form class="search" >
+                            <div class="chon">
+                                <h4>Khách sạn</h4>
+                                <select class="form-control">
+                                    <option value="0">---Chọn khách sạn---</option>
+                                    <option value="1">Resort hotel</option>
+                                    <option value="2">Commercial hotel</option>
+                                    <option value="3">Airport hotel</option>
+                                    <option value="4">Casino hotel</option>
+                                    <option value="5">Hostel</option>
+                                    <option value="6">Condotel</option>
+                                    <option value="7">Motel</option>
+                                    <option value="8">Floating hotel</option>
+                                </select>
+                            </div>
+                            <div class="chon">
+                                <h4>Phương tiện</h4>
+                                <select class="form-control">
+                                    <option value="0">---Chọn phương tiện---</option>
+                                    <option value="1">Ô tô</option>
+                                    <option value="2">Máy bay</option>
+                                    <option value="3">Tàu lửa</option>
+                                    <option value="4">Tàu biển</option>
+                                </select>
+                            </div>
+                            <div class="chon">
+                                <h4>Thời gian</h4>
+                                <select class="form-control">
+                                    <option value="0">---Chọn thời gian đi Tour---</option>
+                                    <option value="1">1 ngày</option>
+                                    <option value="2">2 ngày</option>
+                                    <option value="3">3 ngày</option>
+                                    <option value="4">4 ngày</option>
+                                    <option value="5">5 ngày</option>
+                                    <option value="6">6 ngày</option>
+                                    <option value="7">7 ngày</option>
+                                    <option value="8">8 ngày</option>
+                                    <option value="9">9 ngày</option>
+                                    <option value="10">10 ngày</option>
+                                    <option value="11">11 ngày</option>
+                                    <option value="12">12 ngày</option>
+                                    <option value="13">13 ngày</option>
+                                    <option value="14">14 ngày</option>
+                                    <option value="15">15 ngày</option>
+                                </select>
+                            </div>
+                            <div class="chon">
+                                <h4>Khoảng giá</h4>
+                                <select class="form-control">
+                                    <option value="0">---Chọn khoảng giá---</option>
+                                    <option value="1000000-3000000">1 triệu - 3 triệu</option>
+                                    <option value="3000000-5000000">3 triệu - 5 triệu</option>
+                                    <option value="5000000-7000000">5 triệu - 7 triệu</option>
+                                    <option value="7000000-9000000">7 triệu - 9 triệu</option>
+                                    <option value="9000000-11000000">9 triệu - 11 triệu</option>
+                                    <option value="11000000-13000000">11 triệu - 13 triệu</option>
+                                    <option value="13000000-15000000">13 triệu - 15 triệu</option>
+                                    <option value="15000000-17000000">15 triệu - 17 triệu</option>
+                                    <option value="17000000-19000000">17 triệu - 19 triệu</option>
+                                    <option value="19000000-21000000">19 triệu - 21 triệu</option>
+                                    <option value="21000000-23000000">21 triệu - 23 triệu</option>
+                                    <option value="23000000-25000000">23 triệu - 25 triệu</option>
+                                    <option value="25000000-27000000">25 triệu - 27 triệu</option>
+                                    <option value="27000000-29000000">27 triệu - 29 triệu</option>
+                                    <option value="29000000-31000000">29 triệu - 31 triệu</option>
+                                    <option value="31000000-33000000">31 triệu - 33 triệu</option>
+                                    <option value="33000000-35000000">33 triệu - 35 triệu</option>
+                                    <option value="35000000-37000000">35 triệu - 37 triệu</option>
+                                    <option value="37000000-39000000">37 triệu - 39 triệu</option>
+                                    <option value="39000000-41000000">39 triệu - 41 triệu</option>
+                                    <option value="41000000-43000000">41 triệu - 43 triệu</option>
+                                    <option value="43000000-45000000">43 triệu - 45 triệu</option>
+                                    <option value="45000000-47000000">45 triệu - 47 triệu</option>
+                                    <option value="47000000-49000000">47 triệu - 49 triệu</option>
+                                    <option value="49000000-51000000">49 triệu - 51 triệu</option>
+                                </select>
+                            </div>
+                            <div class="chon">
+                                <h4>Từ Khóa</h4>
+                                <input type="search" id="search" placeholder="Search..." class="form-control"/>
+                            </div>
+                            <div class="chon">
+                                <h4>&nbsp;</h4>
+                                <input type="button" onclick="location.href='lienhecon.html'" value="Tìm Kiếm" class="timkiem"/>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </section>
+            <section class="page">
+                <a href="homestay_hotel.html"><h1 class="tit">Ở ĐÂU TẠI VŨNG TÀU ?</h1></a>
+                <div class="line"></div>
+                <div class="under"></div>
+                <div class="subjects">
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/1985.jpg" alt="1985’s Homestay, Café & Nail"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestay1985.html"> 1985’s Homestay, Café & Nail</a></p>
+                            <p>– Địa chỉ: Số 20 Quang Trung, phường 1, thành phố Vũng Tàu</p>
+                            <p>1985’s Homestay, Café & Nail với tầng trệt là một quán cà phê xinh xắn và các tầng trên là phòng nghỉ. Homestay có phòng đơn 1 giường hoặc phòng đôi với 2 giường cỡ lớn.<a href="homestay1985.html">Xem thêm+</a> </p>
+                            
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/LarMer.jpg" alt="La Mer Homestay"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestayLaMer.html">La Mer Homestay</a></p>
+                            <p>– Địa chỉ La Mer 1: Số 239/11/9 Lê Hồng Phong, phường 8, thành phố Vũng Tàu</p>
+                            <p>– Địa chỉ La Mer 2: số 45 Ba Tháng Hai , phương 8, TP. Vũng Tàu</p>
+                            <p>Cả La Mer 1 và 2 đều có nhiều loại phòng cho bạn lựa chọn như phòng đôi hoặc phòng lớn cho cả gia đình. Mỗi phòng đều được trang trí khác nhau với đầy đủ những tiện nghi cơ bản, gọn gàng, sạch sẽ. Nói về view đẹp La Mer cân hết mọi bức ảnh sống ảo gồm view nhìn ra hồ bơi, nhìn ra vườn và còn có cả view đẹp nhìn ra biển đáng giá triệu like.<a href="homestayLaMer.html">Xem thêm+</a></p>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/Contaiter.jpg" alt="Vũng Tàu Homestay Container"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestayContainer.html">Vũng Tàu Homestay Container</a></p>
+                            <p>– Địa chỉ: Số 81/14 Thùy Vân, Phường 2, TP. Vũng Tàu</p>
+                            <p>Homestay và các quán café trong container đã trở thành một mô hình độc đáo và trẻ trung những năm gần đây. Các container hạn chế về diện tích nên cách thiết kế, bố trí phải thật khéo léo, tinh tế, tiết kiệm không gian. Tại homestay này, các tiện ích nghỉ ngơi cơ bản đều có đầy đủ gồm giường, tủ kệ, tủ lạnh, máy lạnh, ti vi và nhà tắm riêng. Mỗi căn phòng đều có cửa sổ lớn để đón gió và ánh sáng tự nhiên. View nhìn ra là sân vườn thoáng mát giúp bạn thư giãn nhiều hơn khi trở về phòng nghỉ.<a href="homestayContainer.html">Xem thêm+</a></p>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/AnYen.jpg" alt="An Yên Homestay"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestayAnYen.html">An Yên Homestay</a></p>
+                            <p>– Địa chỉ: Số 60/54/8 Phạm Hồng Thái, phường 7, thành phố Vũng Tàu (gần ngã tư Giếng Nước)</p>
+                            <p>Nói về độ dễ thương thì An Yên Homestay có thể cạnh tranh với các homestay Vũng Tàu khác. Đây cũng là điểm lưu trú gây nhớ gây thương với biết bao khách du lịch. Đó cũng là lý do mà homestay này nhận được nhiều đánh giá tích cực nhất. Cô chủ của An Yên vừa đáng yêu, vừa nồng hậu lại thân thiện nên ai đến dừng chân homestay này cũng đều yêu quý.<a href="homestayAnYen.html">Xem thêm+</a></p>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/Uyen.jpg" alt="Uyên’s House – Bed & Room"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestayUyen.html">Uyên’s House – Bed & Room</a></p>
+                            <p>– Địa chỉ: Khu 7, Phạm Văn Đồng, Côn Đảo (Hòn Sơn), Bà Rịa – Vũng Tàu</p>
+                            <p>Là một trong những homestay nổi tiếng xinh đẹp ở huyện Côn Đảo, Vũng Tàu, Uyên’s House – Bed & Room thu hút lượng lớn khách du lịch trong và ngoài nước. Thật sự hài lòng khi tìm được một không gian nghỉ dưỡng yên bình và được chăm chút đẹp mắt đến từng góc, từng phòng.<a href="homestayUyen.html">Xem thêm+</a></p>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="img">
+                            <img src="images/where/Nhaong.jpg" alt="Homestay nhà ống gió biển"/>
+                        </div>
+                        <div class="info">
+                            <p class="name"><a href="homestayNhaong.html">Homestay nhà ống gió biển</a></p>
+                            <p>– Địa chỉ: Số 6 đường Thùy Vân (bãi sau), phường Thắng Tam, thành phố Vũng Tàu</p>
+                            <p>Thêm một lựa chọn đặc biệt nữa nghe có vẻ kỳ lạ nhưng hút khách không ngờ luôn đó, một homestay mini yêu cực yêu trong nhà ống. Nói nghe có vẻ hơi kỳ nhưng khi bạn nhìn thấy homestay nhà ống gió biển Vũng Tàu, bạn sẽ say luôn cái homestay này.</p>
+                            <p>Mỗi phòng ở đây chỉ dài 3 m và rộng 2,5 m nhưng lại đầy đủ tiện nghi phục vụ cho nhu cầu lưu trú cơ bản như giường, điều hòa, ti vi, tủ lạnh, tủ quần áo … Với thiết kế ống, mỗi sáng thức giấc mở rèm cửa, gió biển tràn vào tận phòng và mang đến cho bạn một ngày mới rạng rỡ. Hơn nữa, homestay này lại có giá hạt dẻ, phù hợp với nhóm bạn đông người. Vừa vui, vừa dễ thương lại giá mềm.<a href="homestayNhaong.html">Xem thêm+</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="under"></div>
+            </section>
+            <section class="page">
+                <a href="con1.html"><h1 class="tit">ĐI ĐÂU TẠI VŨNG TÀU ?</h1></a>
+                <div class="line"></div>
+                <div class="under"></div>
+                <div class="subjects">
+                    <div class="items">
+                        <div class="item">
+                            <div class="img"><img src="images/kito.jfif" alt="Tượng Chúa Kitô Vua(Tượng Chúa Kitô trên đỉnh Núi Tao Phùng)"/></div>
+                            <div class="infogo"><a href="con1.1.html">Tượng Chúa Kitô Vua(Tượng Chúa Kitô trên đỉnh Núi Tao Phùng)</a></div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="img"><img src="images/congtroi1.png" alt="Cổng trời khiến giới trẻ ngất ngây tại Mũi Nghinh Phong Vũng Tàu"/></div>
+                            <div class="infogo"><a href="con1.2.html">Cổng trời khiến giới trẻ ngất ngây tại Mũi Nghinh Phong Vũng Tàu</div></a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="img"><img src="images/ngonhaidang.jfif" alt="Khám phá ngọn hải đăng – Địa điểm thăm quan thú vị ở Vũng Tàu"/></div>
+                            <div class="infogo"><a href="con1.3.html">Khám phá ngọn hải đăng – Địa điểm thăm quan thú vị ở Vũng Tàu</div></a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="img"><img src="images/Côn Đảo.jfif" alt="Du lich Côn Đảo - Hành trình đến với thiên nhiên kỳ thú"/></div>
+                            <div class="infogo"> <a href="con1.4.html">Du lich Côn Đảo - Hành trình đến với thiên nhiên kỳ thú</div></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page">
+                <a href="camnang.html"><h1 class="tit">CẨM NANG DU LỊCH</h1></a>
+                <div class="line"></div>
+                <div class="under"></div>
+                <div class="subjects">
+                    <!-- <div> -->
+                        <div class="news">
+                            <img src="images/new/eat.png"/>
+                            <div class="content">
+                                <p class="name"><a href="camnang1.html">Ăn gì khi du lịch Vũng Tàu?</a></p>
+                                <p class="infonew">Ẩm thực Vũng Tàu không chỉ nổi tiếng với món bánh khọt mà còn rất nhiều loại hải sản, cà phê, các món ăn phong cách Nga,… Du lịch Vũng Tàu mà không biết địa chỉ những quán ăn ngon thì thật vô cùng đáng tiếc.</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <img src="images/new/festival.jpg"/>
+                            <div class="content">
+                                <p class="name"><a href="camnang2.html">Một số lễ hội lớn của du lịch Vũng Tàu</a></p>
+                                <p class="infonew">Hàng năm, trên địa bàn tỉnh Bà Rịa – Vũng Tàu, người dân địa phương đều tổ chức những Lễ hội dân gian truyền thống, mang đậm dấu ấn văn hóa và phong tục, tín ngưỡng của cư dân vùng biển, thu hút hàng chục ngàn lượt khách thập phương.</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <img src="images/new/place.jpg"/>
+                            <div class="content">
+                                <p class="name"><a href="con1.html">Những khu vực chính của du lịch Vũng Tàu</a></p>
+                                <p class="infonew">Trung tâm của thành phố Vũng Tàu nằm ở bãi trước, nơi đây tập trung khá nhiều cao ốc và các khu mua bán sầm uất. Du khách thường chọn bãi tắm ở khu vực bãi sau vì bãi trước ô nhiễm hơn do mật độ dân cư sinh sống và du khách tập trung </p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <img src="images/new/cafe.png"/>
+                            <div class="content">
+                                <p class="name"><a href="camnang3.html">Quán coffee đẹp ở Vũng Tàu</a></p>
+                                <p class="infonew">Đi du lịch Vũng Tàu, chắc hẳn những quán cà phê có không gian trầm mặt, ngắm biển xanh và thưởng thức ly cà phê thì thật là khoảng khắc an nhiên đáng trân quý biết bao nhiêu. Hãy cùng nhau ghé thăm những quán cà phê đẹp ở Vũng Tàu nhé.</p>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <div class="under"></div>
+            </section>
+            <section class="page">
+                <h1 class="tit">ĐIỂM NỔI BẬT</h1>
+                <div class="line"></div>
+                <div class="under"></div>
+                <div class="subjects reviews">
+                    <div class="reviewleft">
+                    <div class="video"><iframe width="100%" height="500" src="https://www.youtube.com/embed/yJDl_FNp7E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    </div>
+                    <div class="reviewright">
+                        <div class="review">
+                            <a target="blank" href="https://www.youtube.com/watch?v=iuGa5aei_vM"><img src="images/review/review_1.jpg" alt="8 món đặc sản PHẢI THỬ ở VŨNG TÀU | 24g ăn hết Vũng Tàu 🥵"/></a>
+                            <div class="inforeview">
+                                <a target="blank" class="namereview" href="https://www.youtube.com/watch?v=iuGa5aei_vM">8 món đặc sản PHẢI THỬ ở VŨNG TÀU | 24g ăn hết Vũng Tàu 🥵</a>
+                                <p class="seen">Đã xem: 60</p>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <a target="blank" href="https://www.youtube.com/watch?v=3knW2qTli0I"><img src="images/review/review_2.jpg" alt="KHÁM PHÁ HỒ MÂY PARK VŨNG TÀU TRỌN GÓI GIÁ CHỈ 400K"/></a>
+                            <div class="inforeview">
+                                <a target="blank" class="namereview" href="https://www.youtube.com/watch?v=3knW2qTli0I">KHÁM PHÁ HỒ MÂY PARK VŨNG TÀU TRỌN GÓI GIÁ CHỈ 400K</a>
+                                <p class="seen">Đã xem: 70</p>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <a target="blank" href="https://www.youtube.com/watch?v=XpwDERMssc8"><img src="images/review/review_3.jpg" alt="Khám phá Côn Đảo: Thiên Đường đến từ Địa Ngục đẹp tuyệt vời | DU LỊCH VŨNG TÀU"/></a>
+                            <div class="inforeview">
+                                <a target="blank" class="namereview" href="https://www.youtube.com/watch?v=XpwDERMssc8">Khám phá Côn Đảo: Thiên Đường đến từ Địa Ngục đẹp tuyệt vời | DU LỊCH VŨNG TÀU</a>
+                                <p class="seen">Đã xem: 40</p>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <a href="https://www.youtube.com/watch?v=aky67p1MsWA"><img src="images/review/review_4.jpg" alt="Chia Sẽ Kinh Nghiệm Sài Gòn Đi Vũng Tàu Đường Phà Cát Lái #1 - Nick Phạm"/></a>
+                            <div class="inforeview">
+                                <a class="namereview" href="https://www.youtube.com/watch?v=aky67p1MsWA">Chia Sẽ Kinh Nghiệm Sài Gòn Đi Vũng Tàu Đường Phà Cát Lái #1 - Nick Phạm</a>
+                                <p class="seen">Đã xem: 60</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="under"></div>    
+            </section>
+        </div>
+        <footer>
+            <div class="add">
+                <div class="logo">
+                    <img src="images/logo.png"/>
+                </div>
+                <div class="nguon">
+                    <p style="text-align: center;">Bản quyền thuộc về Đơn vị chủ quản&nbsp;</p>
+                    <p style="text-align: center;">Website được phát triển bởi 
+                        <a href="https://www.facebook.com/nguyenthi.vy.127/">Vi Nguyen Computer</a>
+                        và
+                        <a href="https://www.facebook.com/thuhien.tran.52831/">Hien Tran Computer</a>
+                    </p>
+                    <div class="hoten">
+                        <ul class="menu">
+                            <li><a href="#"><span class="fa-fw select-all fas"></span>Nguyễn Thị Triệu Vi</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span>Mssv: 1951052238</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span> 0949048542</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span> 43 Tú mỡ, phường 7, Gò Vấp, TP.HCM </a></li>
+                        </ul>
+                        <ul class="menu">
+                            <li><a href="#"><span class="fa-fw select-all fas"></span>Trần Thị Thu Hiền</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span>Mssv: 1951052052</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span> 0123456789</a></li>
+                            <li><a href="#"><span class="fa-fw select-all fas"></span> 45 Nguyễn Du, phường 7, Gò Vấp, TP.HCM </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="counter-online">
+            	<div class="counter-online">
+                    <span><em class="fa fa-bolt fa-lg fa-horizon"></em>Đang truy cập</span><span>:&nbsp;2&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-user fa-lg fa-horizon"></em>Thành viên online</span><span>:&nbsp;&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-magic fa-lg fa-horizon"></em>Máy chủ tìm kiếm</span><span>:&nbsp;&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-bullseye fa-lg fa-horizon"></em>Khách viếng thăm</span><span>:&nbsp;&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-filter fa-lg fa-horizon margin-top"></em>Hôm nay</span><span class="margin-top">:&nbsp;46&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-calendar-o fa-lg fa-horizon"></em>Tháng hiện tại</span><span>:&nbsp;919&nbsp;&nbsp;</span>
+                    <span><em class="fa fa-bars fa-lg fa-horizon"></em>Tổng lượt truy cập</span><span>:&nbsp;51,551&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
